@@ -1,6 +1,100 @@
 /* Type your code here */
 
 
+body { 
+    background-image: url('assets/background-image1.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 100%;
+    /* Center and scale the image nicely */
+    /* background-size: cover; */
+  }
+  header{
+      display: flex;
+      position: relative;
+      justify-content: flex-end;
+  }
+  #id1 {
+    text-shadow: 2px 2px grey;
+  }
+  /* #img{
+      position: relative;
+  width: 100%;
+  height: auto;
+  } */
+  table, th, td {
+  /* border: 0px solid black; */
+  /* text-decoration: none; */
+  border-collapse: collapse;
+  font-size: small;
+  background-color: white;
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+caption{
+background-color:#f05136;
+padding: 10px;
+color:white;
+
+}
+a{
+    color: royalblue;
+	text-decoration: none;
+}
+/* a:hover{
+    color: royalblue;
+} */
+/* Type your code here */
+.container{
+	font-size: x-large;
+	font-weight:500;
+	font-family: sans-serif;
+}
+h3{
+	color: grey;
+	border-color: black;
+}
+#box1{
+	/* background-color:orangered; */
+	/* padding:10px;
+	border:2px solid white;
+	margin:20px; */
+		/* align-self: center; 
+		justify-self: center; */
+		/* display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: start;
+		justify-items: center; */
+	/* height:100px;
+	width:100px; */
+	display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: relative;
+	/* top: 50px;
+	margin-left: 80px;
+	font-size: 18px; */
+	font-family: Nunito Sans;
+    font-style: normal;
+}
+
+/* change the font family and spacing as per your project font */
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: relative;
+	top:50px;
+	 top: 750px;
+	margin-left: 80px; 
+	font-size: 18px;
+	font-family: Nunito Sans;
+    font-style: normal;
+    
+}
+
 /* change the font family and spacing as per your project font */
 .footer{
     display:flex;
